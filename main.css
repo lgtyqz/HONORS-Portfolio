@@ -1,0 +1,102 @@
+body {
+    background-color: #ECF0F1; /* golf ball color */
+    /*margin: 0px 0px 0px 0px;*/
+}
+#header {
+    background-color: #2C3E50; /* taxes color */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+#mainTitle {
+    color: #ECF0F1; /* golf ball color */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 5px 5px 5px 5px;
+}
+#subheader {
+    width: auto;
+    background-color: #1ABC9C; /* the rough color */
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 10px;
+}
+#subTitle {
+    color: #ECF0F1; /* golf ball color */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+#navbar {
+    background-color: #2C3E50; /* taxes color */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    border-top: 5px solid #ECF0F1;
+    border-bottom: 5px solid #ECF0F1;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #ECF0F1; /* golf ball color */
+}
+.navbarElement {
+    display: inline;
+    background-color: #16A085;
+    /*border-right: 5px solid #1ABC9C;
+    border-left: 5px solid #1ABC9C;*/
+    padding: 10px 10px 10px 10px;
+    margin-right: 5px;
+    transition: background-color 0.5s ease,
+                color 0.5s ease;
+}
+
+.navbarElement:hover {
+    background-color: #ECF0F1;
+    color: #2C3E50;
+}
+
+div.artifact {
+    /*margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;*/
+    background-color: #2C3E50;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    height: 50%;
+    overflow: hidden;
+}
+.sectionTitle {
+    border: 5px solid #2C3E50;
+    padding: 10px 10px 10px 20px;
+    color: #2C3E50;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+.image, div.textHolder {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    
+}
+.image {
+    float: right;
+    margin-left: auto;
+    width: 40%;
+    border: 20px ridge #1ABC9C;
+}
+div.textHolder {
+    float: left;
+    width: 45%;
+}
+.artifactTitle {
+    height: 50%;
+    top: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #ECF0F1; /* golf ball color */
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 5px;
+    border-bottom: 10px ridge #1ABC9C;
+}
+div#terminal {
+    background-image: url("placeholder_1.jpg");
+    background-size: cover;
+}

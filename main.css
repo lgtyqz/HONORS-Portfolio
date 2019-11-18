@@ -80,6 +80,7 @@ div.artifact {
     margin-left: auto;
     width: 40%;
     border: 20px ridge #1ABC9C;
+    vertical-align: middle;
 }
 div.textHolder {
     float: left;
@@ -94,7 +95,8 @@ div.textHolder {
     color: #ECF0F1; /* golf ball color */
     margin: 5px 5px 5px 5px;
     padding-bottom: 5px;
-    border-bottom: 10px ridge #1ABC9C;
+    /* border-bottom: 10px ridge #1ABC9C; <-- old */
+    border-bottom: 2px solid #ECF0F1;
 }
 .artifactDesc {
     margin-left: 5px;
@@ -106,4 +108,11 @@ div.textHolder {
 div#terminal {
     background-image: url("placeholder_1.jpg");
     background-size: cover;
+}
+a {
+    color: #1ABC9C;
+    transition: color 0.5s ease
+}
+a:hover {
+    color: #ECF0F1;
 }

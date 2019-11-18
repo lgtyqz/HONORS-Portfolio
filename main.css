@@ -96,6 +96,13 @@ div.textHolder {
     padding-bottom: 5px;
     border-bottom: 10px ridge #1ABC9C;
 }
+.artifactDesc {
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #ECF0F1;
+}
 div#terminal {
     background-image: url("placeholder_1.jpg");
     background-size: cover;
